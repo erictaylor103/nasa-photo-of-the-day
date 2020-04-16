@@ -1,5 +1,44 @@
+*{
+  box-sizing: content-box;
+}
+
 .App {
   text-align: center;
+}
+img{
+  width: 100%;
+}
+
+.polaroid{
+  width: 50%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 auto;
+  
+}
+
+div.container {
+  padding-bottom: 6px;
+}
+
+.container p{
+  font-size: 40px;;
+}
+
+.story-title{
+  padding-top: 70px;
+}
+
+.story-text{
+  align-items: center;
+}
+
+.story-text p{
+  font-family: Verdana;
+  font-size: 22px;
+  width: 80%;
+  padding-left: 180px;
+  
 }
 
 .App-logo {
