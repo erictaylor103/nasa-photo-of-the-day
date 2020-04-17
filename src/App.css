@@ -5,6 +5,12 @@
 .App {
   text-align: center;
 }
+
+.header{
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+
 img{
   width: 100%;
 }
@@ -29,15 +35,13 @@ div.container {
   padding-top: 70px;
 }
 
-.story-text{
-  align-items: center;
-}
 
 .story-text p{
   font-family: Verdana;
-  font-size: 22px;
+  font-size: 35px;
   width: 80%;
-  padding-left: 180px;
+  padding-left: 10%;
+  padding-bottom: 30px;
   
 }
 

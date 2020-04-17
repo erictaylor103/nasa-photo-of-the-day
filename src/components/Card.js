@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
+import CardContainer from './CardContainer';
 
 function Card(){
 
@@ -22,24 +23,29 @@ function Card(){
 
     return (
         <div>
-            <div className="polaroid">
+            <CardContainer>
+
+                <div>            
+                    <h1>Nasa Photo of the Day 🚀</h1>
+                </div>
+
                 <img src = {photoData.url} className = "space-img"/>
-            
-                <div className="container">
+                <div>
                     <p>{photoData.title}</p>
-                    <h4>{photoData.date}</h4>
+                    <h4>{photoData.date}</h4>                    
                 </div>                  
-            </div>
+            </CardContainer>
 
             <div>
                 
                 <div className="story-title">
                     <h1>The Story Behing the Photo</h1>
+                    <h4>Photographer: {photoData.copyright}</h4>
                 </div>
                 
                 <div className="story-text">
                     <p>{photoData.explanation}</p>
-                </div>
+                </div>                
             
             </div>
 
