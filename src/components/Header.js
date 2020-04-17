@@ -1,11 +1,12 @@
 import React from 'react';
 
+import HeaderContainer from './HeaderContainer.jsx'
+
 function Header(){
-    return(
-        <div>            
-            <h1>Nasa Photo of the Day 🚀</h1>
-        </div>
-    );
+    return null;
+        
+        
+    
 }
 
 export default Header;
